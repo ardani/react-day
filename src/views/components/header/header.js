@@ -5,11 +5,7 @@ const Header = ({ authenticated, signOut }) => (
   <header className="header">
     <div className="g-row">
       <div className="g-col">
-        <h1 className="header__title">Todo Redux Saga</h1>
-
-        <ul className="header__actions">
-          {authenticated ? <li><button onClick={signOut}>Sign out</button></li> : null}
-        </ul>
+        <h1 className="header__title">React Day</h1>
       </div>
     </div>
   </header>
@@ -17,7 +13,7 @@ const Header = ({ authenticated, signOut }) => (
 
 Header.propTypes = {
   authenticated: PropTypes.bool.isRequired,
-  signOut: PropTypes.func.isRequired
+  signOut: PropTypes.func.isRequired,
 };
 
 
