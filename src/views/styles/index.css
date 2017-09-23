@@ -1,5 +1,15 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: 'Lato', arial, sans-serif;
+  color: #434343;
+  background: #DAE3E7;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.sections-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section {
+  margin-bottom: 30px;
 }

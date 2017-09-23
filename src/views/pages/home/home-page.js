@@ -1,11 +1,32 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
+import Header from '../../components/header';
+import About from '../../components/about';
+import Contact from '../../components/contact';
+import Projects from '../../components/projects';
+import Credits from '../../components/credits';
+import Skills from '../../components/skills';
+import Languages from '../../components/languages';
+import Footer from '../../components/footer';
 
 const Home = () => (
-  <div className="g-row">
-    <div className="g-col">
-      <h1 className="helloPage">Hello This Is Home</h1>
-    </div>
+  <div>
+    <Header/>
+      <div className="container sections-wrapper">
+        <div className="row">
+            <div className="primary col-md-8 col-sm-12 col-xs-12">
+            <About/>
+            <Projects/>
+            </div>
+            <div className="secondary col-md-4 col-sm-12 col-xs-12">
+            <Contact/>
+            <Credits/>
+            <Skills/>
+            <Languages/>
+            </div>
+        </div>
+      </div>
+    <Footer/>
   </div>
 );
 
