@@ -11,22 +11,22 @@ import Footer from '../../components/footer';
 
 const Home = () => (
   <div>
-    <Header/>
-      <div className="container sections-wrapper">
-        <div className="row">
-            <div className="primary col-md-8 col-sm-12 col-xs-12">
-            <About/>
-            <Projects/>
-            </div>
-            <div className="secondary col-md-4 col-sm-12 col-xs-12">
-            <Contact/>
-            <Credits/>
-            <Skills/>
-            <Languages/>
-            </div>
+    <Header />
+    <div className="container sections-wrapper">
+      <div className="row">
+        <div className="primary col-md-8 col-sm-12 col-xs-12">
+          <About />
+          <Projects />
+        </div>
+        <div className="secondary col-md-4 col-sm-12 col-xs-12">
+          <Contact />
+          <Credits />
+          <Skills />
+          <Languages />
         </div>
       </div>
-    <Footer/>
+    </div>
+    <Footer />
   </div>
 );
 

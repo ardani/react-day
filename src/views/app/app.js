@@ -6,11 +6,7 @@ import UnauthRoute from '../components/unauth-route';
 import Home from '../pages/home';
 
 const App = ({ authenticated }) => (
-  <div>
-    <main>
-      <UnauthRoute authenticated={authenticated} exact path="/" component={Home} />
-    </main>
-  </div>
+  <UnauthRoute authenticated={authenticated} exact path="/" component={Home} />
 );
 
 export default withRouter(connect()(App));
