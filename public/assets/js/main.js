@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
         
         /* jQuery RSS - https://github.com/sdepold/jquery-rss */
         
-        $("#rss-feeds").rss(
+        /*$("#rss-feeds").rss(
         
             //Change this to your own rss feeds
             "http://feeds.feedburner.com/TechCrunch/startups",
@@ -52,14 +52,14 @@ jQuery(document).ready(function($) {
             entryTemplate: '<h3 class="title"><a href="{url}" target="_blank">{title}</a></h3><div><p>{shortBodyPlain}</p><a class="more-link" href="{url}" target="_blank"><i class="fa fa-external-link"></i>Read more</a></div>'
             
             }
-        );
+        );*/
         
         /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-        GitHubCalendar("#github-graph", "IonicaBizau");
+       /* GitHubCalendar("#github-graph", "IonicaBizau");*/
         
         
-        /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-        GitHubActivity.feed({ username: "caseyscarborough", selector: "#ghfeed" });
+        /* Github Activity Feed - https://github.com/caseyscarborough/github-activity 
+        GitHubActivity.feed({ username: "caseyscarborough", selector: "#ghfeed" });*/
     
     
     });
