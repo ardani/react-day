@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => (
   <header className="header">
     <div className="container">
-      <img className="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="James Lee" />
+      <img className="profile-image img-responsive img-circle pull-left" src="assets/images/profile.jpeg" alt="James Lee" />
       <div className="profile-content pull-left">
         <h1 className="name">Fitrina</h1>
         <h2 className="desc">Junior Front End Developer</h2>
@@ -15,7 +15,7 @@ const Header = () => (
           </li>
         </ul>
       </div>
-      <a className="btn btn-cta-primary pull-right" href="http://themes.3rdwavemedia.com/"><i className="fa fa-paper-plane" /> Contact Me</a>
+      <a className="btn btn-cta-primary pull-right"><i className="fa fa-paper-plane" /> Contact Me</a>
     </div>
   </header>
 );

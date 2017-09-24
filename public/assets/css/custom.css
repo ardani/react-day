@@ -126,6 +126,8 @@ body {
   }
   .header .profile-image {
     margin-right: 30px;
+    width: 208px;
+    height: 238px;
   }
   .header .profile-content .name {
     color: #49515a;

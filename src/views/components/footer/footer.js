@@ -4,7 +4,7 @@ const Footer = () => (
   <footer className="footer">
     <div className="container text-center">
       <small className="copyright">Designed with <i className="fa fa-heart" /> by
-        <a href="http://themes.3rdwavemedia.com" > Xiaoying Riley</a> for developers
+        <a href="javascript:void(0)" > Fitrina Nur</a>
       </small>
     </div>
   </footer>

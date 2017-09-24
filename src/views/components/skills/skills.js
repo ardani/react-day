@@ -33,7 +33,7 @@ const Skills = () => (
                             </div>
                         </div>
                     </div>
-                    <p><a className="more-link" href="#"><i className="fa fa-external-link"></i> More on Coderwall</a></p>
+                    <p><a className="more-link" href="javascript:void(0)"><i className="fa fa-external-link"></i> More on Coderwall</a></p>
                 </div>
             </div>
         </div>
